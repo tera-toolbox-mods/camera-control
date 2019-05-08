@@ -1,12 +1,6 @@
 const SettingsUI = require('tera-mod-ui').Settings;
 
 module.exports = function Shaker(mod) {
-    if(mod.proxyAuthor !== 'caali' || !global.TeraProxy) {
-        mod.warn('You are trying to use Shaker on an unsupported legacy version of tera-proxy.');
-        mod.warn('The module may not work as expected, and even if it works for now, it may break at any point in the future!');
-        mod.warn('It is highly recommended that you download the latest official version from the #proxy channel in https://discord.gg/dUNDDtw');
-    }
-
     mod.clientInterface.configureCameraShake(mod.settings.enabled, mod.settings.power, mod.settings.speed);
 
     // Commands

@@ -10,5 +10,5 @@
         "settingsFile": "config.json",
         "settingsMigrator": "settings_migrator.js"
     },
-    "servers": ["https://raw.githubusercontent.com/caali-hackerman/shaker/master/"]
+    "servers": ["https://raw.githubusercontent.com/tera-toolbox-mods/shaker/master/"]
 }
