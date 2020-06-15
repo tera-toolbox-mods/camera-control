@@ -1,6 +1,6 @@
 const SettingsUI = require('tera-mod-ui').Settings;
 
-module.exports = function Shaker(mod) {
+exports.NetworkMod = function(mod) {
     mod.clientInterface.configureCameraShake(mod.settings.enabled, mod.settings.power, mod.settings.speed);
 
     // Commands

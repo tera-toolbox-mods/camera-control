@@ -1,10 +1,10 @@
 {
     "name": "shaker",
     "author": "Caali",
-    "description": "Modify or completely disable camera shaking effects. You can configure it in the window that opens when typing `/toolbox shaker` in chat.",
+    "description": "Modify or completely disable camera shaking effects. You can configure it in the window that opens when typing `/proxy shaker` in chat.",
     "version": "1.0",
     "options": {
-        "niceName": "Shaker",
+        "cliName": "Shaker",
         "guiName": "Shaker",
         "settingsVersion": 1,
         "settingsFile": "config.json",
