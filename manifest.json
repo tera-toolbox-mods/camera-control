@@ -7,6 +7,7 @@
         "settings_structure.js": "fff452ea625feece26b0630537ed21f43a39e8c542f5bd1017d60ba4ca00f59e"
     },
     "defs": {
+        "S_DUNGEON_CAMERA_SET": 1,
         "S_STEER_DEBUG_COMMAND": 1
     }
 }
