@@ -1,9 +1,13 @@
 {
     "files": {
-        "index.js": "9c7800dfcc5518a1bc8eb4e98b67507f6ab3984bb68d341169ceabe6a92dec93",
-        "module.json": "b022116101da5c9e74428ad34203f0536fe4fe54bb307ec400df64da654498ae",
-        "settings_migrator.js": "35fc503052bc1fd3b4708015eeb5069bb7a642926ee4e42d0706f7dc6cedcf54",
-        "settings_structure.js": "594e75526fb9dc0859815cec565dea55a47e586a207f73cb3d273f53a0661553"
+        "README.md": "538a331c8cbc8af4207576e1e5823730e2e117beb13684f20eea77c1930b872b",
+        "index.js": "e6a00991c71f057072e79937af44fcf8c837be2e1e69a5a2669e5b08ae942f68",
+        "module.json": "a7aad2cd74c96e478b739bf688be11b0867baafaf2a4327c28800d7e1f40bad3",
+        "settings_migrator.js": "a43d4169bf88085644783fecddcd9efe5ac7a6c5344eb7f1230ae6f2c4d2ffb9",
+        "settings_structure.js": "fff452ea625feece26b0630537ed21f43a39e8c542f5bd1017d60ba4ca00f59e"
     },
-    "defs": {}
+    "defs": {
+        "S_DUNGEON_CAMERA_SET": 1,
+        "S_STEER_DEBUG_COMMAND": 1
+    }
 }
