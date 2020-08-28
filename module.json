@@ -1,14 +1,15 @@
 {
-    "name": "shaker",
+    "name": "camera-control",
     "author": "Caali",
-    "description": "Modify or completely disable camera shaking effects. You can configure it in the window that opens when typing `/proxy shaker` in chat.",
+    "description": "Configure or disable camera shaking effects. Change camera FOV (field of view) and distance. Settings accessible by typing `/toolbox camera` in chat.",
     "version": "1.0",
     "options": {
-        "cliName": "Shaker",
-        "guiName": "Shaker",
-        "settingsVersion": 1,
+        "cliName": "Camera Control",
+        "guiName": "Camera Control",
+        "settingsVersion": 2,
         "settingsFile": "config.json",
         "settingsMigrator": "settings_migrator.js"
     },
-    "servers": ["https://raw.githubusercontent.com/tera-toolbox-mods/shaker/master/"]
+    "servers": ["https://raw.githubusercontent.com/tera-toolbox-mods/camera-control/master/"],
+    "conflicts": ["shaker"]
 }
