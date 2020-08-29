@@ -9,7 +9,7 @@ exports.NetworkMod = function(mod) {
             mod.send('S_DUNGEON_CAMERA_SET', 1, { enabled: true, default: mod.settings.distanceValue, max: mod.settings.distanceValue });
     }
 
-    mod.game.on('enter_game', () => apply());
+    mod.game.on('leave_loading_screen', () => mod.setTimeout(() => apply(), 1000));
 
     // Commands
     mod.command.add('camera', {
