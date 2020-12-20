@@ -10,6 +10,7 @@ exports.NetworkMod = function(mod) {
     }
 
     mod.game.on('leave_loading_screen', () => mod.setTimeout(() => apply(), 1000));
+    mod.hook('S_DEAD_LOCATION', 'event', () => mod.setTimeout(() => apply(), 1));
 
     // Commands
     mod.command.add('camera', {
