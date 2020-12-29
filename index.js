@@ -11,6 +11,14 @@ exports.NetworkMod = function(mod) {
 
     mod.game.on('leave_loading_screen', () => mod.setTimeout(() => apply(), 1000));
 
+    mod.hook("S_STEER_DEBUG_COMMAND", "event", () => {
+        if(mod.settings.fovEnabled) return false;
+    });
+
+    mod.hook("S_DUNGEON_CAMERA_SET", "event", () => {
+        if(mod.settings.distanceEnabled) return false;
+    });
+
     // Commands
     mod.command.add('camera', {
         $default() {
